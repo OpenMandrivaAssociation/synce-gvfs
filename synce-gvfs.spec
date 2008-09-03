@@ -29,6 +29,7 @@ BuildRequires:	libsynce-devel
 BuildRequires:	librapi-devel
 BuildRequires:	dbus-glib-devel
 BuildRequires:	libgvfs-devel
+BuildRequires:	intltool
 %if svn
 BuildRequires:	gnome-common
 %endif
