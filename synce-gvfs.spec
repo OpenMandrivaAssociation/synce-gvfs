@@ -21,6 +21,7 @@ Source0:	http://downloads.sourceforge.net/synce/%{distname}
 # source tree (see also the patch) - AdamW 2008/09
 Source1:	gvfs-0.99.6.tar.bz2
 Patch0:		synce-gvfs-0.1.1-gvfs1.patch
+Patch1:		synce-gvfs-0.1.1-autogen.patch
 URL:		http://synce.sourceforge.net/
 Group:		Communications
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -43,6 +44,7 @@ to synce:/// in Nautilus or any other GVFS-compliant application.
 %prep
 %setup -q -n %{dirname} -b1
 %patch0 -p1 -b .gvfs1
+%patch1 -p1 -b .autogen
 
 %build
 pushd make-dist
