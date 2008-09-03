@@ -28,6 +28,9 @@ BuildRequires:	libsynce-devel
 BuildRequires:	librapi-devel
 BuildRequires:	dbus-glib-devel
 BuildRequires:	libgvfs-devel
+%if svn
+BuildRequires:	gnome-common
+%endif
 Requires:	gvfs
 
 %description
