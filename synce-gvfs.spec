@@ -1,5 +1,5 @@
 %define svn		3537
-%define rel		1
+%define rel		2
 %if %svn
 %define release		%mkrel 0.%svn.%rel
 %define distname	%name-%svn.tar.lzma
@@ -11,7 +11,7 @@
 %endif
 
 Name:		synce-gvfs
-Summary:	SynCE tray icon for GNOME
+Summary:	Access Windows Mobile device filesystems via GVFS
 Version:	0.1.1
 Release:	%{release}
 License:	MIT
