@@ -86,3 +86,36 @@ rm -rf %{buildroot}
 
 
 
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.2.2-2mdv2010.0
++ Revision: 445307
+- rebuild
+
+* Mon Mar 02 2009 Emmanuel Andry <eandry@mandriva.org> 0.2.2-1mdv2009.1
++ Revision: 347296
+- New version 0.2.2
+- drop source 1
+- drop patches
+- update files list
+
+* Thu Sep 04 2008 Adam Williamson <awilliamson@mandriva.org> 0.1.1-0.3537.2mdv2009.0
++ Revision: 280238
+- correct summary (leftover from the spec I based this on)
+
+* Wed Sep 03 2008 Adam Williamson <awilliamson@mandriva.org> 0.1.1-0.3537.1mdv2009.0
++ Revision: 279541
+- br intltool, it seems
+- add autogen.sh patch (use autoreconf not gnome-autogen.sh as it fails weirdly
+  on x86-64)
+- svn br gnome-common
+- add a gvfs tarball and a patch to make it build and work with current gvfs
+  (messy build system as you can probably guess)
+- bump to current SVN (works with new gvfs)
+
+* Thu Jul 31 2008 Adam Williamson <awilliamson@mandriva.org> 0.1-1mdv2009.0
++ Revision: 256787
+- import synce-gvfs
+
+
