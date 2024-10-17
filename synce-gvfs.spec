@@ -22,7 +22,7 @@ Source0:	http://downloads.sourceforge.net/synce/%{distname}
 #Source1:	gvfs-0.99.6.tar.bz2
 #Patch0:		synce-gvfs-0.1.1-gvfs1.patch
 #Patch1:		synce-gvfs-0.1.1-autogen.patch
-URL:		http://synce.sourceforge.net/
+URL:		https://synce.sourceforge.net/
 Group:		Communications
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	libsynce-devel
