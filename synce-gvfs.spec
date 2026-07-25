@@ -1,11 +1,11 @@
 %define svn		0
 %define rel		2
 %if %svn
-%define release		%mkrel 0.%svn.%rel
+%define release 1
 %define distname	%name-%svn.tar.lzma
 %define	dirname		synce-gvfs
 %else
-%define release		%mkrel %rel
+%define release %rel.1
 %define distname	%name-%version.tar.gz
 %define dirname		%name-%version
 %endif
